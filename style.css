@@ -1,0 +1,369 @@
+﻿
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.6em;
+	color:#fff;
+	background-color: #F4F4F8;
+	overflow-x:hidden;
+}
+
+h1 {
+	color:white;
+	line-height:1.1em;
+}
+
+h2,h3,h4,h5,h6 {
+	color:black;
+	line-height:1.1em;
+}
+
+p {
+	color:white;
+	font-size:13px;
+}
+a {
+    text-decoration:none;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color:#eee;
+	}
+
+.btn-primary {
+  padding: 8px 20px;
+  background: #1BBD36;
+  color: #fff;
+  border-radius: 4px;
+  border:none;
+  margin-top: 10px;
+}
+
+.text-center h2 {
+	margin-bottom:30px;
+}
+
+.text-center p {
+	margin-bottom:50px;
+	color:white;
+}
+
+.btn-default {
+  color: white;
+  background-color: #fff;
+  border-color: #fff;
+  text-transform:uppercase;
+  font-size:18px;
+  border-radius:30px;
+  margin-left:-10px;
+}
+
+#breadcrumb {
+	background-color: #1BBD36;
+	margin-top: -20px;
+}
+
+.breadcrumb {
+  list-style: none;
+  background-color: #1BBD36;
+  border-radius: 0px;
+  padding:3px 10px;
+}
+
+.breadcrumb li {
+   text-transform:uppercase;
+   margin-top:135px;
+   font-weight:600;
+}
+
+/*===========================
+  Menu na Naveção
+============================ */
+.navigation  {
+	background-color: black;
+	padding:0;
+}
+
+
+
+.navbar.default {
+  width: 100%;  
+  margin: 0 auto;
+  height: 30%;    
+}
+
+.navbar-brand h2 {
+	margin-top:15px;
+	padding-top:1px;
+	float: auto;
+	font-size: 20px;
+	color:whi;
+	text-transform:uppercase;
+	font-weight:900;
+	width: 209px;
+    margin-left: 15px;
+	
+}
+
+.navbar-brand h1 span {
+	color: #1BBD36;
+}
+
+.menu {
+	font-size:12px;
+	float:right;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+.menu ul.nav-tabs li {
+	color:#000;
+}
+
+.nav-tabs {
+	border-bottom: 0;
+}
+.nav-tabs > li {
+	float: left;
+	margin-bottom: 0px;
+}
+.nav-tabs > li > a {
+	border-radius:5px;
+	color:#333;
+	padding:30px;
+}
+
+.nav-tabs > li > a:hover {
+	color: #1BBD36;
+	border-color: #fff #fff #fff;
+	border-radius:0;
+	background-color:#fff;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+#nav-tabsdrop > li {
+	float: left;
+	margin-bottom: 0px;
+}
+#nav-tabsdrop > li > a {
+	border-radius:5px;
+	color:#333;
+	padding:10px;
+}
+
+#nav-tabsdrop > li > a:hover {
+	color: #1BBD36;
+	border-color: #fff #fff #fff;
+	border-radius:0;
+	background-color:#fff;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+
+.nav-tabs > li > a.active {
+	color: #1BBD36;
+    
+	border-radius:0;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		padding-top: 6px;
+	}
+	.navbar-brand h1 {
+		margin-top: 0;
+	}
+
+	.nav-tabs > li {
+		float: none;
+		display: block;
+	}
+
+	.menu {
+		position: absolute;
+		left: 0;
+		right: 0;
+		background: #fff;
+		height: auto;
+	}
+
+	.nav-tabs > li > a {
+		padding:15px 15px;
+		border-bottom: 1px solid #f3f3f3;
+	}
+
+	.nav-tabs > li > a:hover {
+		border-color: #f3f3f3;
+	}
+}
+
+.text-left{
+	color: black;
+	text-transform:uppercase;
+	font-size:18px;
+	border-radius:30px;
+	margin-left:30px;
+}
+
+	.text-left p{
+		color: black;
+		text-transform:none;
+		font-size:19px;
+		
+		margin-left:30px;
+	}
+
+	.text-left p para:hover{
+		color: black;
+		text-transform:none;
+		font-size:19px;
+		
+		margin-left:10px;
+	}
+	
+.text-left h2{
+	color: black;
+	font-size: 25px;
+	text-transform:none;
+}
+
+/*******************************************Equipe***************************************/
+    .main-section.team{
+	padding:85px 0;
+}
+.main-section.team h6{
+	margin-bottom:40px;
+}
+
+
+/* Team
+---------------------------------*/
+.team-leader-block{
+	max-width:993px;
+	margin:0 auto;
+}
+.team-leader-box{
+	width:30.66%;
+	margin-right: 3.82979%;
+	height: 490px;
+	overflow: hidden;
+	text-align: center;
+	float: left;
+}
+.team-leader-box span{
+	margin-bottom:24px;
+	display:block;
+}
+.team-leader-box:nth-of-type(3n+0){ margin:0;}
+.team-leader{
+	width:auto;
+	height:auto;
+	position:relative;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
+	margin:7px 7px 25px 7px;
+	
+}
+.team-leader-shadow{
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	border-radius:50%;
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:10;
+	border-radius:50%;
+}
+.team-leader-shadow a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.team-leader:hover .team-leader-shadow{
+	box-shadow:inset  0px 0px 0px 148px rgba(17,17,17,0.80);
+}
+.team-leader:hover ul{ display:block; opacity:1}
+.team-leader img{
+	display:block;
+	border-radius:50%;
+}
+.team-leader ul{
+	display:block;
+	opacity:0;
+	padding:0;
+	margin:0;
+	list-style:none;
+	position:absolute;
+	left:0;
+	top:50%;
+	width:100%;
+	text-align:center;
+	margin-top:-14px;
+	z-index:15;
+	transition:all 0.6s ease-in-out;
+	-moz-transition:all 0.6s ease-in-out;
+	-webkit-transition:all 0.6s ease-in-out;
+}
+.team-leader ul li{
+	display:inline;
+	margin:0 11px;
+}
+.team-leader ul li a{
+	font-family: 'FontAwesome';
+	display:inline-block;
+	font-size:28px;
+	color:#fff;	
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.team-leader ul li a:hover, .team-leader ul li a:focus{
+	text-decoration:none;
+}
+.team-leader ul li a.fa-twitter:hover{
+	color:#55acee;
+}
+.team-leader ul li a.fa-facebook:hover{
+	color:#3b5998;
+}
+
+.team-leader ul li a.fa-instagram:hover{
+	color:#CF1259;
+}
+
+/************************************************************************************/
+#footer {
+	background-color: #1BBD36;
+	color: white;
+	padding: 56.4px;
+	text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+
+

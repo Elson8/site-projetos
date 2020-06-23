@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto Integrador</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="img/cropped-logo_integrapo-1-180x180.png" sizes="192x192">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<style>
+	h1{
+		color: black;
+	}
+    
+    .text-center p {
+	margin-bottom:50px;
+	color:black;
+}
+    .text-left{
+	color: black;
+	
+	font-size:15px;
+	
+	
+        
+}
+    h4,h5{
+        color: white;
+    }
+
+	.text-left p{
+        font-family:monospace;
+		color: black;
+		
+		
+		
+		
+	}
+
+	.text-left p para:hover{
+		color: black;
+		
+		
+		
+		
+	}
+    
+    .container1 {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container1 img {vertical-align: middle;}
+
+.container1 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+    content > p {
+        color: white;
+    }
+	</style>
+
+
+<body>
+          <!---------------------------------- NavBar do site ------------------------------>
+          <header>
+			<nav class="navbar navbar-inverse navbar-fixed-top  " role="navigation">
+			  <div class="navigation">
+				<div class="container">
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+									<span class="sr-only"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+           
+				<div class="navbar-brand">
+
+				  <a href="index.html"><img src="img/senac.png" height="50" width="80"   alt=""></a>
+				</div>
+         		 </div>
+
+				  <div class="navbar-collapse collapse">
+					<div class="menu">
+					  <ul class="nav nav-tabs navbar-right" role="tablist">
+						<li role="presentation"><a href="index.html" class="active">Home</a></li>
+						<li role="presentation"><a class= type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="portfolio.html">Portfolio</a>
+							<ul class="dropdown-menu" id="nav-tabsdrop" aria-labelledby="dropdownMenu1" role="tablist">
+								<li role="presentation" ><a href="modulo1.html">Modulo 1</a></li>
+									<li role="presentation" ><a href="modulo1.html">Modulo 1</a></li>
+									<li role="presentation" ><a href="modulo2.html">Modulo 2</a></li>
+									<li role="presentation" ><a href="modulo3.html">Modulo 3</a></li>
+									<li role="presentation" ><a href="modulo4.html">Modulo 4</a></li>
+									<li role="presentation" ><a href="modulo5.html">Modulo 5</a></li>
+								  </ul>
+						</li>
+						<li role="presentation"><a href="sobre.html">Sobre</a></li>
+						<li role="presentation"><a href="contato.html">Contato</a></li>
+					  </ul>
+					</div>
+				  </div>
+       		 </div>
+      	</div>
+    </nav>
+  </header>
+		<nav class="">
+		  <div id="breadcrumb">
+			<div class="container">
+			  <div class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				  <li><a href="modulo1.html">Modulo 1</a></li>
+				<li>Logica de Progamação e Algoritmos</li>
+			  </div>
+			</div>
+		  </div>
+		  </nav>
+   
+   <!-------------------------------------------------------------------------------------->
+   		
+   		<div class="container-fluid text-center">    
+		  <div class="row content">
+			<div class="col-sm-2 sidenav">
+		  <br>
+		  <br>
+			 
+			  <p style="color: black"><b><h5 style="color: black">Prof:  Alice Mota Faleiro</h5></b></p>
+			  
+			</div>
+			<div class="col-sm-8 text-center"> 
+			  <h1>Algoritmo em Java</h1>
+			  <hr>
+				<p >O programa foi desenvolvido na linguagem     Java, utilizando o NetBeans IDE 8.2 tanto para satisfazer os requisitos da produção e desenvolvimento deste trabalho, como na agilidade de aplicações futuras.
+
+
+			   </p>
+			   <p>Primeiramente o que o programa faz é ler a partir de um endereço IP, e do prefixo de Rede, que o usuário fornece. Ele verifica a qual classe pertence, classifica o IP de acordo com o primeiro octeto, e calcula a máscara de rede em formato decimal, e descobre a rede e broadcast caso pertença a classe "C", irá imprimir uma lista com todas as sub-redes para o bloco de notas feito.</p>
+			   
+			  <hr>
+			  <div class="container1">
+  <img src="img/algoritmo.png" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h4>Programa</h4>
+    <h5>Sendo Executado</h5>
+  </div>
+</div>
+			 
+			 <h1>Download</h1>
+			 <br><br><br><br>
+			 
+			 <p class="text-left"><a href="ipcalcu.jar" style="background-color: black">Download Do Arquivo Jar</a></p>
+			  <p class="text-left"><a href="ipcalcu.zip" style="background-color: black">Download Do Código</a></p>
+			</div>
+			
+			<div class="col-sm-2 sidenav">
+			  
+			</div>
+			
+		  </div>
+		</div>
+   
+   
+   
+    </body>
+</html>
